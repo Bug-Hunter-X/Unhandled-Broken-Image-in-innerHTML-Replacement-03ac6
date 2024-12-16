@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon HTML bug related to replacing the innerHTML of a div element with content containing a broken image source. The bug causes the image to break without proper handling, potentially leading to unexpected visual or layout issues. The solution provides a robust approach to handle such scenarios and prevent unexpected behavior.
