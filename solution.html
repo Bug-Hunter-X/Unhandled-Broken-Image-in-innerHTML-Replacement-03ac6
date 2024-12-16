@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text is visible.
+  </div>
+  <script>
+    const newContent = `<p>This text replaces the div content.</p><img src='valid-image.jpg' alt='Image' onerror='this.onerror=null;this.src="broken-image.png";'>`;
+    document.getElementById("myDiv").innerHTML = newContent;
+  </script>
+</body>
+</html>
